@@ -105,3 +105,58 @@ about
 #about p{
     text-align: justify;
 }
+
+/*-------------------------------------------
+works
+-------------------------------------------*/
+#works ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#works li{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+/*-------------------------------------------
+works
+-------------------------------------------*/
+#news dl{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #C8C8C8;
+    margin-bottom: 20px;
+}
+
+#news dt{
+    width: 20%;
+    border-bottom: solid 1px #C8C8C8;
+    padding: 15px;
+}
+
+#news dd{
+    width: 80%;
+    border-bottom: solid 1px #C8C8C8;
+    padding: 15px;
+}
+
+/*-------------------------------------------
+contact
+-------------------------------------------*/
+#contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#contact dt{
+    width: 20%;
+}
+
+#contact dd{
+    width: 80%;
+    margin-bottom: 10px;
+}
